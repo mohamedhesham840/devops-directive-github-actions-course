@@ -19,6 +19,7 @@ jobs:
     needs:
       - job-1
       - job-2
+      - job-3
     steps:
       - run: echo "They can also depend on one another..."
   job-4:
